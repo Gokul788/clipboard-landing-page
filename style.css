@@ -207,6 +207,7 @@ body{
     display: flex;
     margin-top: 4rem;
     align-items: center;
+    justify-content: center;
     
    }
    .feature-heading{
@@ -234,9 +235,8 @@ body{
 
    .workflow-container{
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
-    gap:0;
     margin-right:0;
    }
    .workflow-card > .heading{
@@ -246,6 +246,16 @@ body{
    .workflow-card > .paragraph{
     margin-left: 0;
     margin-right: 0;
+   }
+   .workflow-text{
+    flex-wrap: wrap;
+    
+   }
+   .workflow-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
    }
 
    .brands-container{
